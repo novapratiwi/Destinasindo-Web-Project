@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+    <h1>DESTINASINDO</h1>
+
+    <form onsubmit="return false">
+        <div class="email">
+            <!-- <label for="Email">Email</label> -->
+            <input name="email", type="text", placeholder="Email">
+        </div><br>
+        
+        <div class="password">
+            <!-- <label for="Password">Password</label> -->
+            <input name="password", type="password", placeholder="Password">
+        </div><br>
+        
+        <div class="tombol">
+            <button data-toggle="modal" id="masuk">MASUK</button>
+            <br>
+            <a href=""><input type="button" id="a" value="Lupa Password?"></a>
+            <a href="../FORM SIGN UP/index.html"><input type="button" id="b" value="Daftar"></a>
+            <br>
+            <a href="https://accounts.google.com/signinchooser?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><input type="button" id="google" value="MASUK DENGAN GOOGLE"></a>
+            
+            <div class="modal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            ANDA BERHASIL LOGIN
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </form>
+    <script>
+        let button = document.querySelector('button[data-toggle="modal"]');
+        let modal = document.querySelector('.modal');
+
+        button.addEventListener('click', function() {
+            modal.classList.add('show');
+        });
+
+        modal.addEventListener('click', function(){
+            this.classList.remove('show');
+        });
+
+        modal.querySelector('.modal-content').addEventListener('click', function(e){
+            e.stopPropagation();
+        });
+    </script>
+</body>
+</html>
