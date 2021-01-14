@@ -65,11 +65,13 @@ body{
 
 .atas{
     display: flex;
+    justify-content: space-evenly;
     margin: 103px;
 }
 
 .bawah{
     display: flex;
+    justify-content: space-evenly;
     margin: 103px;
 }
 

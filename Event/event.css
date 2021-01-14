@@ -60,6 +60,7 @@ body{
     margin: 77px;
     justify-content: center;
     display: flex;
+    margin-left: 250px;
     width: 1340px;
     height: 704px;
     background-color: white;
@@ -113,6 +114,7 @@ table tr td a{
     margin: 77px;
     justify-content: center;
     display: flex;
+    margin-left: 250px;
     width: 1340px;
     height: 704px;
     background-color: white;
