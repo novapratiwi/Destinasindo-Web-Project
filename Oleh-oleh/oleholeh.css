@@ -110,8 +110,7 @@ h2{
     height: 54px;
 }
 
-#bintang {
-    background-image: url("Star.png");
+#bintang1{
     width: 63px;
     height: 58px;
     margin-left: 240px;
@@ -159,8 +158,9 @@ h2{
 }
 
 #bintang2{
-    background-image: url(Star.png);
-    background-size: cover;
+    width: 63px;
+    height: 58px;
+    margin-left: 240px;
 }
 
 .batik{
@@ -196,8 +196,9 @@ h2{
 }
 
 #bintang3{
-    background-image: url(Star.png);
-    background-size: cover;
+    width: 63px;
+    height: 58px;
+    margin-left: 240px;
 }
 
 .kerajinan{
@@ -233,8 +234,9 @@ h2{
 }
 
 #bintang4{
-    background-image: url(Star.png);
-    background-size: cover;
+    width: 63px;
+    height: 58px;
+    margin-left: 240px;
 }
 
 p{
@@ -260,7 +262,7 @@ p{
 }
 
 .maps{
-    background-image: url("maps.png");
+    background-image: url("maps.jpg");
     width: 76px;
     height: 66px;
     margin-left: 22px;

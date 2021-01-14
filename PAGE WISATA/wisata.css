@@ -87,7 +87,6 @@ body{
 }
 
 #bintang1{
-    background-image: url("bintang.png");
     width: 63px;
     height: 58px;
     margin-left: 339px;
@@ -111,7 +110,6 @@ body{
 }
 
 #bintang2{
-    background-image: url("bintang.png");
     width: 63px;
     height: 58px;
     margin-left: 179px;
@@ -135,7 +133,6 @@ body{
 }
 
 #bintang3{
-    background-image: url("bintang.png");
     width: 63px;
     height: 58px;
     margin-left: -60px;
@@ -159,7 +156,6 @@ body{
 }
 
 #bintang4{
-    background-image: url("bintang.png");
     width: 63px;
     height: 58px;
     margin-left: 193px;
