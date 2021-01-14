@@ -66,7 +66,6 @@ body{
 .bakpia{
     margin: 77px;
     display: flex;
-    margin-left: 250px;
     width: 1340px;
     height: 496px;
     background-color:  #F3F3F3;
@@ -111,8 +110,7 @@ h2{
     height: 54px;
 }
 
-#bintang {
-    background-image: url("Star.png");
+#bintang1{
     width: 63px;
     height: 58px;
     margin-left: 240px;
@@ -130,7 +128,6 @@ h2{
 .yangko{
     margin: 77px;
     display: flex;
-    margin-left: 250px;
     width: 1340px;
     height: 496px;
     background-color:  #F3F3F3;
@@ -161,14 +158,14 @@ h2{
 }
 
 #bintang2{
-    background-image: url(Star.png);
-    background-size: cover;
+    width: 63px;
+    height: 58px;
+    margin-left: 240px;
 }
 
 .batik{
     margin: 77px;
     display: flex;
-    margin-left: 250px;
     width: 1340px;
     height: 496px;
     background-color:  #F3F3F3;
@@ -199,14 +196,14 @@ h2{
 }
 
 #bintang3{
-    background-image: url(Star.png);
-    background-size: cover;
+    width: 63px;
+    height: 58px;
+    margin-left: 240px;
 }
 
 .kerajinan{
     margin: 77px;
     display: flex;
-    margin-left: 250px;
     width: 1340px;
     height: 496px;
     background-color:  #F3F3F3;
@@ -237,8 +234,9 @@ h2{
 }
 
 #bintang4{
-    background-image: url(Star.png);
-    background-size: cover;
+    width: 63px;
+    height: 58px;
+    margin-left: 240px;
 }
 
 p{

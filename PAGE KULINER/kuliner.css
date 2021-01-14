@@ -91,10 +91,6 @@ body{
     margin-left: 465px;
 }
 
-#bintang1:active{
-    background-image: url("bintangpenuh.png");
-}
-
 #gambar2{
     background-image: url("sateklatak.jpg");
     background-size: cover;
