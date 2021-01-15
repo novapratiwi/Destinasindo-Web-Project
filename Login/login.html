@@ -22,7 +22,8 @@
         </div><br>
         
         <div class="tombol">
-            <button data-toggle="modal" id="masuk"> <a href="../index.html"></a>MASUK</button>
+            <button data-toggle="modal" id="masuk">MASUK</button>
+            <!-- <button > <a href="../index.html"></a>MASUK</button> -->
             <br>
             <a href="../LupaKataSandi/lupaPassword.html"><input type="button" id="a" value="Lupa Password?"></a>
             <a href="../PAGE SIGN UP/signup.html"><input type="button" id="b" value="Daftar"></a>
@@ -47,9 +48,9 @@
         button.addEventListener('click', function() {
             modal.classList.add('show');
         });
-
         modal.addEventListener('click', function(){
             this.classList.remove('show');
+            window.location = "../index.html";
         });
 
         modal.querySelector('.modal-content').addEventListener('click', function(e){
